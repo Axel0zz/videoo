@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: 2px solid black;
+}
+
+img:hover{
+    transition: 2s all ease;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.hola1{
+    color: white;
+}
